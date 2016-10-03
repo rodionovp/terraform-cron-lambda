@@ -25,7 +25,7 @@ Warning: These policies should never be used in production. You would probable u
 
 The cron jobs are written in Scala/Node. 
 
-For illustration purpose both jobs just print log into Cloudwatch every minute.
+For illustration purpose both jobs just print logs into Cloudwatch every minute.
 
 # Run 
 
