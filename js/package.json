@@ -1,0 +1,19 @@
+{
+  "name": "terraform-cron-lambda",
+  "version": "1.0.0",
+  "description": "A lambda that runs a cron job in AWS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodionovp/terraform-cron-lambda.git"
+  },
+  "author": "Pavel Rodionov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodionovp/terraform-cron-lambda/issues"
+  },
+  "homepage": "https://github.com/rodionovp/terraform-cron-lambda#readme"
+}
