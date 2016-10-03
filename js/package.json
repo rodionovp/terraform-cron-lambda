@@ -4,7 +4,8 @@
   "description": "A lambda that runs a cron job in AWS ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "package": "zip -r build/aws-lambda.zip index.js node_modules"
   },
   "repository": {
     "type": "git",
@@ -16,4 +17,5 @@
     "url": "https://github.com/rodionovp/terraform-cron-lambda/issues"
   },
   "homepage": "https://github.com/rodionovp/terraform-cron-lambda#readme"
+
 }
