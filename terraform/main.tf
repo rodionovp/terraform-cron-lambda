@@ -21,9 +21,8 @@ resource "aws_iam_role" "iam_for_lambda" {
 EOF
 }
 
-
-resource "aws_iam_policy_attachment" "test-attach" {
-  name = "test-attachment"
+resource "aws_iam_policy_attachment" "iam_policy_lambda_basic" {
+  name = "iam_policy_lambda_basic"
   roles = ["${aws_iam_role.iam_for_lambda.name}"]
   policy_arn = "arn:aws:iam::aws:policy/service-role/AWSLambdaBasicExecutionRole"
 }

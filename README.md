@@ -14,7 +14,7 @@ Make sure you have AWS keys setup.
     $export AWS_ACCESS_KEY_ID=[your access key id]
     $export AWS_SECRET_ACCESS_KEY=[your secret access key]
   
-To run example successfully make sure the user have following IAM Policies attached: 
+To run example successfully make sure an AWS user has following IAM Policies attached: 
 * CloudWatchFullAccess
 * IAMFullAccess
 * AWSLambdaFullAccess
